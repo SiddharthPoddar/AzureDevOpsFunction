@@ -1,0 +1,8 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=firstfucnctiona8144;AccountKey=Kx4I2W7KEdgrYxkVwPH1DpwBHAUZNYu+8omidzHPWeSeLNgaBTN80qvfQC6LXpOGXwlUzDVmL9hAWVjWZB++qQ==;BlobEndpoint=https://firstfucnctiona8144.blob.core.windows.net/;TableEndpoint=https://firstfucnctiona8144.table.core.windows.net/;QueueEndpoint=https://firstfucnctiona8144.queue.core.windows.net/;FileEndpoint=https://firstfucnctiona8144.file.core.windows.net/",
+      "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "RecordsSplit": "100"
+    }
+}
