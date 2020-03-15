@@ -28,7 +28,7 @@ namespace HttpTriggerCSVtoJson
             return (ActionResult)new OkObjectResult(json);
            
         }
-        public static void testfunction()
+        public static void testdevopssourcecontrolfunction()
         { }
         public static string Convert(Stream blob)
         {
