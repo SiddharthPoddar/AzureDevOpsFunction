@@ -34,10 +34,9 @@ stages:
       displayName: Build
       inputs:
         command: 'build'
-        projects: |
-          $(workingDirectory)/*.csproj
-        arguments: --output $(System.DefaultWorkingDirectory)/publish_output --configuration Release
-
+        projects: '**/*.csproj'
+          arguments: '--configuration $(BuildConfiguration)'
+      
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
